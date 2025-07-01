@@ -1,53 +1,85 @@
 using UnityEngine;
-using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 
 public class PanelRotator : MonoBehaviour
 {
     public List<RectTransform> panels; // 3개의 패널
-    private List<Vector3> positions = new List<Vector3>(); // 원래 위치들
-    public float moveDuration = 0.3f; // 이동 시간
+    private List<Vector3> basePositions = new List<Vector3>(); // 기준 위치 저장
+    public float moveDuration = 0.3f;
+
+    public PanelAudioController panelAudioController; // 음악 컨트롤러 연결
 
     void Start()
     {
-        // 시작 시 각 패널의 현재 위치 저장
         foreach (RectTransform panel in panels)
         {
-            positions.Add(panel.anchoredPosition);
+            basePositions.Add(panel.anchoredPosition3D); // z값 포함
         }
+
+        ApplyVisuals();
+
     }
 
     public void OnNextButtonClick()
     {
-        // 현재 위치 리스트를 한 칸씩 오른쪽으로 이동
-        Vector3 lastPos = positions[positions.Count - 1];
-        for (int i = positions.Count - 1; i > 0; i--)
-        {
-            positions[i] = positions[i - 1];
-        }
-        positions[0] = lastPos;
+        // 패널 순서 회전
+        RectTransform last = panels[panels.Count - 1];
+        panels.RemoveAt(panels.Count - 1);
+        panels.Insert(0, last);
 
-        // 각 패널을 새로운 위치로 이동 (코루틴 사용)
+        ApplyVisuals();
+
+        // 이동 끝나고 음악 재생
+        StartCoroutine(WaitAndPlayAudio());
+    }
+
+    void ApplyVisuals()
+    {
         for (int i = 0; i < panels.Count; i++)
         {
-            StopCoroutine("MovePanel");
-            StartCoroutine(MovePanel(panels[i], positions[i]));
+            RectTransform panel = panels[i];
+            Vector3 targetPos = basePositions[i];
+            Vector3 targetScale;
+
+            if (i == 1)
+            {
+                targetPos.z = 100;
+                targetScale = new Vector3(1.3f, 1.3f, 1f);
+            }
+            else
+            {
+                targetPos.z = 117;
+                targetScale = new Vector3(0.8f, 0.8f, 1f);
+            }
+
+            StartCoroutine(MovePanel(panel, targetPos, targetScale));
         }
     }
 
-    IEnumerator MovePanel(RectTransform panel, Vector3 targetPos)
+    IEnumerator MovePanel(RectTransform panel, Vector3 targetPos, Vector3 targetScale)
     {
-        Vector3 start = panel.anchoredPosition;
+        Vector3 startPos = panel.anchoredPosition3D;
+        Vector3 startScale = panel.localScale;
+
         float elapsed = 0f;
 
         while (elapsed < moveDuration)
         {
-            panel.anchoredPosition = Vector3.Lerp(start, targetPos, elapsed / moveDuration);
+            float t = elapsed / moveDuration;
+            panel.anchoredPosition3D = Vector3.Lerp(startPos, targetPos, t);
+            panel.localScale = Vector3.Lerp(startScale, targetScale, t);
             elapsed += Time.deltaTime;
             yield return null;
         }
 
-        panel.anchoredPosition = targetPos;
+        panel.anchoredPosition3D = targetPos;
+        panel.localScale = targetScale;
+    }
+
+    IEnumerator WaitAndPlayAudio()
+    {
+        yield return new WaitForSeconds(moveDuration);
+        panelAudioController.CheckAndPlayAudio();
     }
 }
