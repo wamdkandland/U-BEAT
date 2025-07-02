@@ -1,0 +1,118 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\RPG\\Unity\\U-BEAT\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F992B531-7496-6467-727F-EF9AB12DB6E8}|Assembly-CSharp.csproj|c:\\rpg\\unity\\u-beat\\assets\\01.script\\kth\\sliceobj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F992B531-7496-6467-727F-EF9AB12DB6E8}|Assembly-CSharp.csproj|solutionrelative:assets\\01.script\\kth\\sliceobj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F992B531-7496-6467-727F-EF9AB12DB6E8}|Assembly-CSharp.csproj|c:\\rpg\\unity\\u-beat\\assets\\01.script\\function\\optionbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F992B531-7496-6467-727F-EF9AB12DB6E8}|Assembly-CSharp.csproj|solutionrelative:assets\\01.script\\function\\optionbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F992B531-7496-6467-727F-EF9AB12DB6E8}|Assembly-CSharp.csproj|C:\\RPG\\Unity\\U-BEAT\\assets\\01.script\\whisperlocalstt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F992B531-7496-6467-727F-EF9AB12DB6E8}|Assembly-CSharp.csproj|solutionrelative:assets\\01.script\\whisperlocalstt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F992B531-7496-6467-727F-EF9AB12DB6E8}|Assembly-CSharp.csproj|C:\\RPG\\Unity\\U-BEAT\\Assets\\01.Script\\Utility\\WaveUtility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F992B531-7496-6467-727F-EF9AB12DB6E8}|Assembly-CSharp.csproj|solutionrelative:Assets\\01.Script\\Utility\\WaveUtility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F992B531-7496-6467-727F-EF9AB12DB6E8}|Assembly-CSharp.csproj|C:\\RPG\\Unity\\U-BEAT\\Assets\\01.Script\\MICRecorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F992B531-7496-6467-727F-EF9AB12DB6E8}|Assembly-CSharp.csproj|solutionrelative:Assets\\01.Script\\MICRecorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\RPG\\Unity\\U-BEAT\\Assets\\01.Script\\Function\\PanelCloser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\01.Script\\Function\\PanelCloser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SliceObj.cs",
+              "DocumentMoniker": "C:\\RPG\\Unity\\U-BEAT\\Assets\\01.Script\\KTH\\SliceObj.cs",
+              "RelativeDocumentMoniker": "Assets\\01.Script\\KTH\\SliceObj.cs",
+              "ToolTip": "C:\\RPG\\Unity\\U-BEAT\\Assets\\01.Script\\KTH\\SliceObj.cs",
+              "RelativeToolTip": "Assets\\01.Script\\KTH\\SliceObj.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBEAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T05:12:36.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OptionButton.cs",
+              "DocumentMoniker": "C:\\RPG\\Unity\\U-BEAT\\Assets\\01.Script\\Function\\OptionButton.cs",
+              "RelativeDocumentMoniker": "Assets\\01.Script\\Function\\OptionButton.cs",
+              "ToolTip": "C:\\RPG\\Unity\\U-BEAT\\Assets\\01.Script\\Function\\OptionButton.cs",
+              "RelativeToolTip": "Assets\\01.Script\\Function\\OptionButton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T05:15:37.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PanelCloser.cs",
+              "DocumentMoniker": "C:\\RPG\\Unity\\U-BEAT\\Assets\\01.Script\\Function\\PanelCloser.cs",
+              "RelativeDocumentMoniker": "Assets\\01.Script\\Function\\PanelCloser.cs",
+              "ToolTip": "C:\\RPG\\Unity\\U-BEAT\\Assets\\01.Script\\Function\\PanelCloser.cs",
+              "RelativeToolTip": "Assets\\01.Script\\Function\\PanelCloser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T05:15:30.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WaveUtility.cs",
+              "DocumentMoniker": "C:\\RPG\\Unity\\U-BEAT\\Assets\\01.Script\\Utility\\WaveUtility.cs",
+              "RelativeDocumentMoniker": "Assets\\01.Script\\Utility\\WaveUtility.cs",
+              "ToolTip": "C:\\RPG\\Unity\\U-BEAT\\Assets\\01.Script\\Utility\\WaveUtility.cs",
+              "RelativeToolTip": "Assets\\01.Script\\Utility\\WaveUtility.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAgwBAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T01:51:53.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MICRecorder.cs",
+              "DocumentMoniker": "C:\\RPG\\Unity\\U-BEAT\\Assets\\01.Script\\MICRecorder.cs",
+              "RelativeDocumentMoniker": "Assets\\01.Script\\MICRecorder.cs",
+              "ToolTip": "C:\\RPG\\Unity\\U-BEAT\\Assets\\01.Script\\MICRecorder.cs",
+              "RelativeToolTip": "Assets\\01.Script\\MICRecorder.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAgwFQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T01:41:23.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WhisperLocalSTT.cs",
+              "DocumentMoniker": "C:\\RPG\\Unity\\U-BEAT\\Assets\\01.Script\\WhisperLocalSTT.cs",
+              "RelativeDocumentMoniker": "Assets\\01.Script\\WhisperLocalSTT.cs",
+              "ToolTip": "C:\\RPG\\Unity\\U-BEAT\\Assets\\01.Script\\WhisperLocalSTT.cs",
+              "RelativeToolTip": "Assets\\01.Script\\WhisperLocalSTT.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T01:32:01.544Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
