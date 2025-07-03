@@ -42,8 +42,8 @@ Material:
     - _Emissoin: 1
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _boxsizeH: 0
-    - _boxsizeW: 0.8
+    - _boxsizeH: 0.6
+    - _boxsizeW: 1
     m_Colors:
     - _Color: {r: 0.9622642, g: 0.9622642, b: 0.9622642, a: 0}
   m_BuildTextureStacks: []
